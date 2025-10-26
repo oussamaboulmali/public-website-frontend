@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Sens d'écriture pour l'arabe */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Sens d'écriture pour les autres langues */
+.ltr {
+  direction: ltr;
+  text-align: left;
+  background-color: brown !important;
+}
+
+/* Exemple : inverser les marges/paddings pour `rtl` */
+.rtl .container {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.social-embeds iframe,
+.social-embeds .twitter-tweet,
+.social-embeds .fb-post,
+.social-embeds .fb-video {
+  margin: 20px auto;
+  /*display: block !important;*/
+}
+
+.social-embeds > div[style*="justify-content: center"] {
+  margin: 20px 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+}
