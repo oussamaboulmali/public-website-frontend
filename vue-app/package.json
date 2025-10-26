@@ -1,0 +1,32 @@
+{
+  "name": "vue-app-fr",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Vue.js version of APS news website",
+  "scripts": {
+    "dev": "vite --port 3021",
+    "build": "vite build",
+    "preview": "vite preview --port 4002",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0",
+    "dompurify": "^3.2.5",
+    "js-cookie": "^3.0.5",
+    "pinia": "^2.2.8",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^5.0.9",
+    "eslint": "^9.17.0",
+    "eslint-plugin-vue": "^9.31.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+  }
+}
